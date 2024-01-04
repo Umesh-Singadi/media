@@ -1,5 +1,10 @@
+import UsersList from "./components/UsersList";
 function App() {
-  return <h1>Media</h1>;
+  return (
+    <div className="container mx-auto">
+      <UsersList />
+    </div>
+  );
 }
 
 export default App;
