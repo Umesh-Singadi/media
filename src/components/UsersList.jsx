@@ -1,5 +1,9 @@
 function UsersList() {
-  return <div>UsersList</div>;
+  return (
+    <div>
+      <h1>Users List</h1>
+    </div>
+  );
 }
 
 export default UsersList;
