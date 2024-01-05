@@ -1,5 +1,9 @@
 {
-  "users": [],
+  "users": [
+    { "id": 1, "name": "Umesh", "age": 22 },
+    { "id": 2, "name": "Ajit", "age": 27 },
+    { "id": 3, "name": "Dayanad", "age": 31 }
+  ],
   "album": [],
   "photos": []
 }
