@@ -19,7 +19,10 @@ function UsersList() {
   }
 
   const renderedUsers = data.map((user) => (
-    <div key={user.id} className="mb-2 border rounded">
+    <div
+      key={user.id}
+      className="mb-2 border rounded bg-gray-50 hover:bg-gray-100"
+    >
       <div className="flex p-2 justify-between items-center cursor-pointer">
         {user.name}
       </div>
@@ -28,7 +31,7 @@ function UsersList() {
 
   return (
     <div>
-      <div className="flex flex-row justify-between m-3">
+      <div className="flex flex-row justify-between m-3 ">
         <h1 className="m-2 text-xl">Users</h1>
         <Button onClick={() => dispatch(addUser())} success rounded>
           + Add User
