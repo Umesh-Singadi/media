@@ -11,7 +11,7 @@ function UsersList() {
   }, []);
 
   if (isLoading) {
-    return <Skeleton times={5}>Loading..</Skeleton>;
+    return <Skeleton times={5} className="h-10 w-full m-10"></Skeleton>;
   }
   if (error) {
     return <h1>Error</h1>;
@@ -20,7 +20,7 @@ function UsersList() {
   return (
     <div>
       {data.map((user) => (
-        <h1 key={user.key}>{user.name}</h1>
+        <h1 key={user.id}>{user.name}</h1>
       ))}
     </div>
   );
