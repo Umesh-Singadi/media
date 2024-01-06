@@ -1,8 +1,53 @@
 {
   "users": [
-    { "id": 1, "name": "Umesh", "age": 22 },
-    { "id": 2, "name": "Ajit", "age": 27 },
-    { "id": 3, "name": "Dayanad", "age": 31 }
+    {
+      "id": 1,
+      "name": "Umesh"
+    },
+    {
+      "id": 2,
+      "name": "Ajit"
+    },
+    {
+      "id": 3,
+      "name": "Dayanand"
+    },
+    {
+      "name": "Leonel",
+      "id": 4
+    },
+    {
+      "name": "Ruben",
+      "id": 5
+    },
+    {
+      "name": "Mariane",
+      "id": 6
+    },
+    {
+      "name": "Ken",
+      "id": 7
+    },
+    {
+      "name": "Nikki",
+      "id": 8
+    },
+    {
+      "name": "Germaine",
+      "id": 9
+    },
+    {
+      "name": "Jayne",
+      "id": 10
+    },
+    {
+      "name": "Elenor",
+      "id": 11
+    },
+    {
+      "name": "Antonia",
+      "id": 12
+    }
   ],
   "album": [],
   "photos": []

@@ -9,7 +9,7 @@ export default {
         },
       },
       animation: {
-        shimmer: "shimmer 1500ms infinite",
+        shimmer: "shimmer 1.5s infinite",
       },
     },
   },
