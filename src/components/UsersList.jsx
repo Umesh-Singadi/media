@@ -17,13 +17,15 @@ function UsersList() {
     return <h1>Error</h1>;
   }
 
-  return (
-    <div>
-      {data.map((user) => (
-        <h1 key={user.id}>{user.name}</h1>
-      ))}
+  const renderedUsers = data.map((user) => (
+    <div key={user.id} className="mb-2 border rounded">
+      <div className="flex p-2 justify-between items-center cursor-pointer">
+        {user.name}
+      </div>
     </div>
-  );
+  ));
+
+  return <div>{renderedUsers}</div>;
 }
 
 export default UsersList;
