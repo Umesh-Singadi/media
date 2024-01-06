@@ -1,7 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUsers } from "../store";
+import { fetchUsers, addUser } from "../store";
 import { useEffect } from "react";
 import Skeleton from "./Skeleton";
+import Button from "./Button";
 
 function UsersList() {
   const dispatch = useDispatch();
@@ -25,7 +26,14 @@ function UsersList() {
     </div>
   ));
 
-  return <div>{renderedUsers}</div>;
+  return (
+    <div>
+      <div>
+        <Button onClick={() => dispatch(addUser())}>+ Add User</Button>
+      </div>
+      {renderedUsers}
+    </div>
+  );
 }
 
 export default UsersList;

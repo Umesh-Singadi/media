@@ -1,8 +1,17 @@
 {
   "users": [
-    { "id": 1, "name": "Umesh" },
-    { "id": 2, "name": "Ajit" },
-    { "id": 3, "name": "Dayanand" }
+    {
+      "id": 1,
+      "name": "Umesh"
+    },
+    {
+      "id": 2,
+      "name": "Ajit"
+    },
+    {
+      "id": 3,
+      "name": "Dayanand"
+    }
   ],
   "album": [],
   "photos": []
