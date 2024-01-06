@@ -7,4 +7,5 @@ export const store = configureStore({
   },
 });
 
+// eslint-disable-next-line react-refresh/only-export-components
 export * from "./thunks/fetchUsers";

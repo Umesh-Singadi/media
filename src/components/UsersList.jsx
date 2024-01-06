@@ -8,17 +8,19 @@ function UsersList() {
   useEffect(() => {
     dispatch(fetchUsers());
   }, []);
+
+  if (isLoading) {
+    return <h1>Loading...</h1>;
+  }
+  if (error) {
+    return <h1>Error</h1>;
+  }
+
   return (
     <div>
-      {isLoading ? (
-        <h1>Loading</h1>
-      ) : (
-        <div>
-          {data.map((user) => (
-            <h1 key={user.key}>{user.name}</h1>
-          ))}
-        </div>
-      )}
+      {data.map((user) => (
+        <h1 key={user.key}>{user.name}</h1>
+      ))}
     </div>
   );
 }
