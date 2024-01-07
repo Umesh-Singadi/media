@@ -1,56 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Umesh"
+      "name": "Colby",
+      "id": 2
     },
     {
-      "id": 2,
-      "name": "Ajit"
+      "name": "Dane",
+      "id": 3
     },
     {
-      "id": 3,
-      "name": "Dayanand"
-    },
-    {
-      "name": "Beryl",
+      "name": "Osvaldo",
       "id": 4
-    },
-    {
-      "name": "Mark",
-      "id": 5
-    },
-    {
-      "name": "Easton",
-      "id": 6
-    },
-    {
-      "name": "Dion",
-      "id": 7
-    },
-    {
-      "name": "Chadrick",
-      "id": 8
-    },
-    {
-      "name": "Samson",
-      "id": 9
-    },
-    {
-      "name": "Earline",
-      "id": 10
-    },
-    {
-      "name": "Daren",
-      "id": 11
-    },
-    {
-      "name": "Dion",
-      "id": 12
-    },
-    {
-      "name": "Emma",
-      "id": 13
     }
   ],
   "album": [],
