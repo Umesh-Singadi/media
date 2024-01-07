@@ -16,32 +16,35 @@ function UsersList() {
     doFetchUsers();
   }, [doFetchUsers]);
 
+  const count = data.length;
+  let content;
   if (isLoadingUsers) {
-    return <Skeleton times={5} className="h-10 w-full m-10"></Skeleton>;
-  }
-  if (loadingUsersError) {
-    return <h1>Error</h1>;
+    content = (
+      <Skeleton times={count + 10} className="h-10 w-full m-10"></Skeleton>
+    );
+  } else if (loadingUsersError) {
+    content = <h1>Error fetching data...</h1>;
+  } else {
+    content = data.map((user) => (
+      <div
+        key={user.id}
+        className="mb-2 border rounded bg-gray-50 hover:bg-gray-100"
+      >
+        <div className="flex p-2 justify-between items-center cursor-pointer">
+          {user.name}
+        </div>
+      </div>
+    ));
   }
 
   const handleAddUser = () => {
     doCreateUser();
   };
 
-  const renderedUsers = data.map((user) => (
-    <div
-      key={user.id}
-      className="mb-2 border rounded bg-gray-50 hover:bg-gray-100"
-    >
-      <div className="flex p-2 justify-between items-center cursor-pointer">
-        {user.name}
-      </div>
-    </div>
-  ));
-
   return (
     <div>
       <div className="flex flex-row justify-between m-3 ">
-        <h1 className="m-2 text-xl">Users</h1>
+        <h1 className="m-2 text-xl">Users Count is : {data.length}</h1>
 
         <Button onClick={handleAddUser} loading={isCreatingUser}>
           + Add User
@@ -49,7 +52,7 @@ function UsersList() {
 
         {creatingUserError && "Error Creating user..."}
       </div>
-      {renderedUsers}
+      {content}
     </div>
   );
 }
