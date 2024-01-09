@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { configureStore } from "@reduxjs/toolkit";
 import { userReducer } from "./slices/usersSlice";
 import { setupListeners } from "@reduxjs/toolkit/query";
@@ -19,4 +20,4 @@ setupListeners(store.dispatch);
 export * from "./thunks/fetchUsers";
 export * from "./thunks/addUser";
 export * from "./thunks/deleteUser";
-export { useFetchAlbumsQuery } from "./apis/albumsApi";
+export { useFetchAlbumsQuery, useAddAlbumMutation } from "./apis/albumsApi";

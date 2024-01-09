@@ -11,12 +11,29 @@
     {
       "name": "Dayanand",
       "id": 3
-    },
-    {
-      "name": "Wilbert",
-      "id": 4
     }
   ],
-  "albums": [{ "id": 1, "userId": 1, "hobbies": "Yoga" }],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Licensed Bronze Shoes",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Small Concrete Chair",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Intelligent Wooden Pizza",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Fresh Mouse",
+      "id": 5
+    }
+  ],
   "photos": []
 }
