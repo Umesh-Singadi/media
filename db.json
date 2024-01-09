@@ -17,11 +17,6 @@
       "id": 4
     }
   ],
-  "albums": [
-    {
-      "userId": 1,
-      "hobbies": "Yoga"
-    }
-  ],
+  "albums": [{ "id": 1, "userId": 1, "hobbies": "Yoga" }],
   "photos": []
 }
