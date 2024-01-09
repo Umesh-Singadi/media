@@ -13,80 +13,20 @@
       "id": 3
     },
     {
-      "name": "Ara",
+      "name": "Juwan",
       "id": 4
     }
   ],
   "albums": [
     {
-      "userId": 1,
-      "title": "Tasty Bronze Bacon",
-      "id": 1
+      "userId": 3,
+      "title": "Gorgeous Wooden Towels",
+      "id": 25
     },
     {
-      "userId": 1,
-      "title": "Elegant Bronze Hat",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "Modern Wooden Pants",
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "title": "Gorgeous Metal Pizza",
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "title": "Ergonomic Granite Cheese",
-      "id": 5
-    },
-    {
-      "userId": 4,
-      "title": "Elegant Soft Hat",
-      "id": 6
-    },
-    {
-      "userId": 4,
-      "title": "Luxurious Steel Car",
-      "id": 7
-    },
-    {
-      "userId": 4,
-      "title": "Ergonomic Fresh Soap",
-      "id": 8
-    },
-    {
-      "userId": 1,
-      "title": "Practical Concrete Hat",
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "title": "Ergonomic Fresh Hat",
-      "id": 10
-    },
-    {
-      "userId": 1,
-      "title": "Unbranded Concrete Shoes",
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "title": "Awesome Frozen Chair",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "title": "Ergonomic Frozen Towels",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "title": "Fantastic Frozen Chicken",
-      "id": 14
+      "userId": 3,
+      "title": "Rustic Frozen Chair",
+      "id": 26
     }
   ],
   "photos": []
