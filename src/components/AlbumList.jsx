@@ -18,12 +18,8 @@ function AlbumList({ user }) {
     content = <div>Error Loading albums</div>;
   } else {
     content = data.map((album) => {
-      let header = <div>{album.hobbies}</div>;
-      return (
-        <ExpandablePanel key={album.id} header={header}>
-          List Of Photos...
-        </ExpandablePanel>
-      );
+      let header = <div>{album.title}</div>;
+      return <ExpandablePanel key={album.id} header={header}></ExpandablePanel>;
     });
   }
 

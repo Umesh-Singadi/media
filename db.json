@@ -11,28 +11,52 @@
     {
       "name": "Dayanand",
       "id": 3
+    },
+    {
+      "name": "Ara",
+      "id": 4
     }
   ],
   "albums": [
     {
       "userId": 1,
-      "title": "Licensed Bronze Shoes",
+      "title": "Tasty Bronze Bacon",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Bronze Hat",
       "id": 2
     },
     {
       "userId": 1,
-      "title": "Small Concrete Chair",
+      "title": "Modern Wooden Pants",
       "id": 3
     },
     {
       "userId": 1,
-      "title": "Intelligent Wooden Pizza",
+      "title": "Gorgeous Metal Pizza",
       "id": 4
     },
     {
       "userId": 1,
-      "title": "Ergonomic Fresh Mouse",
+      "title": "Ergonomic Granite Cheese",
       "id": 5
+    },
+    {
+      "userId": 4,
+      "title": "Elegant Soft Hat",
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "title": "Luxurious Steel Car",
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "title": "Ergonomic Fresh Soap",
+      "id": 8
     }
   ],
   "photos": []
