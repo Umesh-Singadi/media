@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-
 import { FaTrashCan } from "react-icons/fa6";
 import Button from "./Button";
 import { deleteUser } from "../store";
