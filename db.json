@@ -13,21 +13,57 @@
       "id": 3
     },
     {
-      "name": "Juwan",
+      "name": "Dakota",
       "id": 4
     }
   ],
   "albums": [
     {
-      "userId": 3,
-      "title": "Gorgeous Wooden Towels",
-      "id": 25
+      "userId": 1,
+      "title": "Electronic Metal Hat",
+      "id": 1
     },
     {
-      "userId": 3,
-      "title": "Rustic Frozen Chair",
-      "id": 26
+      "userId": 4,
+      "title": "Rustic Frozen Chips",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Frozen Chips",
+      "id": 3
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/640/480?lock=8225339761229824",
+      "id": 3
+    },
+    {
+      "albumId": 2,
+      "url": "https://picsum.photos/seed/3DJ1r/640/480",
+      "id": 4
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/640/480?lock=8313802359570432",
+      "id": 5
+    },
+    {
+      "albumId": 2,
+      "url": "https://picsum.photos/seed/Dpmciz/640/480",
+      "id": 6
+    },
+    {
+      "albumId": 2,
+      "url": "https://picsum.photos/seed/Y9nAEZTV1/640/480",
+      "id": 7
+    },
+    {
+      "albumId": 2,
+      "url": "https://picsum.photos/seed/DL41fUdRr/640/480",
+      "id": 8
+    }
+  ]
 }

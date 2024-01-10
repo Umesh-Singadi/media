@@ -3,6 +3,7 @@ import Button from "./Button";
 import ExpandablePanel from "./ExpandablePanel";
 import { FaTrashCan } from "react-icons/fa6";
 import { useDeleteAlbumMutation } from "../store";
+import PhotosList from "./PhotosList";
 
 function AlbumListItem({ album }) {
   const [deleteAlbum, results] = useDeleteAlbumMutation();
@@ -23,7 +24,11 @@ function AlbumListItem({ album }) {
       {album.title}
     </>
   );
-  return <ExpandablePanel key={album.id} header={header}></ExpandablePanel>;
+  return (
+    <ExpandablePanel key={album.id} header={header}>
+      <PhotosList album={album}></PhotosList>
+    </ExpandablePanel>
+  );
 }
 
 export default AlbumListItem;
