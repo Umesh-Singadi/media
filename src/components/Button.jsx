@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import className from "classnames";
 import { GoSync } from "react-icons/go";
+import { IoReloadSharp } from "react-icons/io5";
 
 function Button({
   children,
@@ -36,7 +37,7 @@ function Button({
 
   return (
     <button {...rest} disabled={loading} className={classes}>
-      {loading ? <GoSync className="animate-spin" /> : children}
+      {loading ? <IoReloadSharp className="animate-spin size-6" /> : children}
     </button>
   );
 }

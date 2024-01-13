@@ -32,7 +32,7 @@ const usersSlice = createSlice({
     });
     builder.addCase(addUser.rejected, (state, action) => {
       state.isLoading = false;
-      state.error - action.error;
+      state.error = action.error;
     });
 
     builder.addCase(deleteUser.pending, (state) => {

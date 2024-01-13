@@ -5,14 +5,14 @@ import Button from "./Button";
 import { useAddAlbumMutation } from "../store";
 
 function AlbumList({ user }) {
-  const { data, isLoading, error } = useFetchAlbumsQuery(user);
+  const { data, isFetching, error } = useFetchAlbumsQuery(user);
   const [addAlbum, results] = useAddAlbumMutation();
   function handleAddAlbum() {
     addAlbum(user);
   }
   let content;
-  if (isLoading) {
-    content = <Skeleton times={10} className="h-10 w-full m-10"></Skeleton>;
+  if (isFetching) {
+    content = <Skeleton times={3} className="h-10 w-full m-10"></Skeleton>;
   } else if (error) {
     content = <h1>Error fetching data...</h1>;
   } else {
@@ -23,9 +23,19 @@ function AlbumList({ user }) {
 
   return (
     <div>
-      <Button className="m-2" rounded success onClick={handleAddAlbum}>
-        Add Album
-      </Button>
+      <div className=" m-2 flex items-center justify-between">
+        <h3 className="text-lg font-bold">Albums for :{user.name}</h3>
+        <Button
+          className="m-2"
+          rounded
+          success
+          onClick={handleAddAlbum}
+          loading={results.isLoading}
+        >
+          + Add Album
+        </Button>
+      </div>
+
       {content}
     </div>
   );

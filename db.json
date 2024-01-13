@@ -1,19 +1,24 @@
 {
   "users": [
     {
-      "name": "Jessica",
-      "id": 1
+      "name": "William",
+      "id": 3
     },
     {
-      "name": "Otha",
-      "id": 2
+      "name": "Estell",
+      "id": 8
     }
   ],
   "albums": [
     {
-      "title": "Recycled Bronze Chair",
-      "userId": 1,
+      "title": "Electronic Wooden Chips",
+      "userId": 3,
       "id": 1
+    },
+    {
+      "title": "Incredible Soft Keyboard",
+      "userId": 3,
+      "id": 2
     }
   ],
   "photos": []
