@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import className from "classnames";
-import { GoSync } from "react-icons/go";
+
 import { IoReloadSharp } from "react-icons/io5";
 
 function Button({

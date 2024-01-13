@@ -1,25 +1,42 @@
 {
   "users": [
     {
-      "name": "William",
-      "id": 3
-    },
-    {
-      "name": "Estell",
-      "id": 8
+      "name": "Britney",
+      "id": 1
     }
   ],
   "albums": [
     {
-      "title": "Electronic Wooden Chips",
-      "userId": 3,
+      "title": "Modern Frozen Ball",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/354.jpg",
       "id": 1
     },
     {
-      "title": "Incredible Soft Keyboard",
-      "userId": 3,
+      "albumId": 1,
+      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/34.jpg",
       "id": 2
+    },
+    {
+      "albumId": 1,
+      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+      "id": 3
+    },
+    {
+      "albumId": 1,
+      "img": "https://avatars.githubusercontent.com/u/57296189",
+      "id": 4
+    },
+    {
+      "albumId": 1,
+      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/817.jpg",
+      "id": 5
     }
-  ],
-  "photos": []
+  ]
 }

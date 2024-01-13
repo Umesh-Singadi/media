@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useFetchAlbumsQuery } from "../store";
 import Skeleton from "./Skeleton";
 import AlbumListItem from "./AlbumListItem";

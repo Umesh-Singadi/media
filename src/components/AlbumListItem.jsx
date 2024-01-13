@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
 import ExpandablePanel from "./ExpandablePanel";
 import Button from "./Button";
 import { FaTrashCan } from "react-icons/fa6";
 import { useRemoveAlbumMutation } from "../store";
+import PhotosList from "./PhotosList";
 
 function AlbumListItem({ album }) {
   const [removeAlbum, results] = useRemoveAlbumMutation();
@@ -22,7 +24,9 @@ function AlbumListItem({ album }) {
   );
   return (
     <>
-      <ExpandablePanel header={header}></ExpandablePanel>
+      <ExpandablePanel header={header}>
+        <PhotosList album={album} />
+      </ExpandablePanel>
     </>
   );
 }
