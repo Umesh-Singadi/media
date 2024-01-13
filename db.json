@@ -1,26 +1,30 @@
 {
   "users": [
     {
-      "name": "Osvaldo",
-      "id": 4
+      "name": "Jessica",
+      "id": 1
     },
     {
-      "name": "Garry",
-      "id": 5
-    },
-    {
-      "name": "D'angelo",
-      "id": 6
-    },
-    {
-      "name": "Jaeden",
-      "id": 8
-    },
-    {
-      "name": "Dandre",
-      "id": 9
+      "name": "Otha",
+      "id": 2
     }
   ],
-  "album": [],
+  "albums": [
+    {
+      "id": 1,
+      "title": "name is Jessica1",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "name is Jessica2",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "name is Jessica3",
+      "userId": 1
+    }
+  ],
   "photos": []
 }
