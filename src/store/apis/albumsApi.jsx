@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
+import { faker } from "@faker-js/faker";
 const BASE_URL = "http://localhost:3005";
 
 const albumsApi = createApi({
@@ -24,9 +24,22 @@ const albumsApi = createApi({
           };
         },
       }),
+      addAlbum: builder.mutation({
+        query: (user) => {
+          return {
+            url: "/albums",
+            method: "POST",
+            body: { title: faker.commerce.productName(), userId: user.id },
+          };
+        },
+      }),
     };
   },
 });
 
-export const { useFetchAlbumsQuery, useRemoveAlbumMutation } = albumsApi;
+export const {
+  useFetchAlbumsQuery,
+  useRemoveAlbumMutation,
+  useAddAlbumMutation,
+} = albumsApi;
 export { albumsApi };

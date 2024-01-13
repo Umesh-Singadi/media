@@ -5,9 +5,12 @@ import { useRemoveAlbumMutation } from "../store";
 
 function AlbumListItem({ album }) {
   const [removeAlbum, results] = useRemoveAlbumMutation();
+  function handleRemoveAlbum() {
+    removeAlbum(album);
+  }
   const header = (
     <>
-      <Button className="mr-3">
+      <Button className="mr-3" onClick={handleRemoveAlbum}>
         <FaTrashCan />
       </Button>
       <h1>{album.title}</h1>

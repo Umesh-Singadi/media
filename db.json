@@ -11,19 +11,9 @@
   ],
   "albums": [
     {
-      "id": 1,
-      "title": "name is Jessica1",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "name is Jessica2",
-      "userId": 1
-    },
-    {
-      "id": 3,
-      "title": "name is Jessica3",
-      "userId": 1
+      "title": "Recycled Bronze Chair",
+      "userId": 1,
+      "id": 1
     }
   ],
   "photos": []
